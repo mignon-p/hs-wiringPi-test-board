@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/ppelleti/cad/hs_wpi_test_board/hs_wpi_test_board.sch)
-    (date "Sunday, August 06, 2017 'PMt' 08:43:12 PM")
+    (date "Monday, August 07, 2017 'PMt' 03:31:21 PM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref J1)
       (value Raspberry_Pi_2_3)
-      (footprint Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm)
+      (footprint Connectors:IDC_Header_Straight_40pins)
       (libsource (lib conn) (part Raspberry_Pi_2_3))
       (sheetpath (names /) (tstamps /))
       (tstamp 5987CBFD))
@@ -307,12 +307,12 @@
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri "/Library/Application Support/kicad/library/device.lib"))
+    (library (logical switches)
+      (uri "/Library/Application Support/kicad/library/switches.lib"))
     (library (logical conn)
       (uri "/Library/Application Support/kicad/library/conn.lib"))
-    (library (logical switches)
-      (uri "/Library/Application Support/kicad/library/switches.lib")))
+    (library (logical device)
+      (uri "/Library/Application Support/kicad/library/device.lib")))
   (nets
     (net (code 1) (name "Net-(D8-Pad2)")
       (node (ref R8) (pin 2))

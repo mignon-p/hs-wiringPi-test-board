@@ -50,7 +50,7 @@ U 1 1 5987CBFD
 P 5150 6200
 F 0 "J1" H 5850 4950 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 4750 7100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 6150 7450 50  0001 C CNN
+F 2 "Connectors:IDC_Header_Straight_40pins" H 6150 7450 50  0001 C CNN
 F 3 "" H 5200 6050 50  0001 C CNN
 	1    5150 6200
 	1    0    0    -1  
