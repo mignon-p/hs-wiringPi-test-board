@@ -35,10 +35,10 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Test board for wiringPi Haskell binding"
+Date "2017-08-08"
 Rev ""
-Comp ""
+Comp "Patrick Pelletier"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -930,4 +930,6 @@ Wire Wire Line
 	4750 7650 4400 7650
 Connection ~ 4750 7600
 Connection ~ 4950 4850
+Text Notes 4700 700  0    60   ~ 0
+Transistor circuit comes from\nhttps://electronics.stackexchange.com/questions/60865/how-to-drive-a-20ma-led-from-a-4ma-max-gpio-pin#60868
 $EndSCHEMATC
