@@ -8,7 +8,7 @@
     (drawings 10)
     (tracks 247)
     (zones 0)
-    (modules 34)
+    (modules 35)
     (nets 54)
   )
 
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.1524)
     (user_trace_width 0.25)
     (user_trace_width 0.5)
     (trace_clearance 0.1524)
@@ -1548,6 +1548,23 @@
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (module hs_wpi_test_board:Haskell_Logo (layer F.Cu) (tedit 0) (tstamp 59896B10)
+    (at 165.735 113.665)
+    (descr "Haskell logo, https://wiki.haskell.org/Thompson-Wheeler_logo")
+    (fp_text reference REF** (at 0 -3.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Haskell_Logo (at 0 3.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_poly (pts (xy -2.388451 2.611549) (xy -0.647418 0) (xy -2.388451 -2.611549) (xy -3.694225 -2.611549)
+      (xy -1.953193 0) (xy -3.694225 2.611549)) (layer F.SilkS) (width 0))
+    (fp_poly (pts (xy -0.647418 2.611549) (xy 0.440727 0.979331) (xy 1.528873 2.611549) (xy 2.834647 2.611549)
+      (xy -0.647418 -2.611549) (xy -1.953193 -2.611549) (xy -0.21216 0) (xy -1.953193 2.611549)) (layer F.SilkS) (width 0))
+    (fp_poly (pts (xy 1.415342 -0.153888) (xy 3.694225 -0.153888) (xy 3.694225 -1.077219) (xy 0.799788 -1.077219)) (layer F.SilkS) (width 0))
+    (fp_poly (pts (xy 2.236081 1.077219) (xy 3.694225 1.077219) (xy 3.694225 0.153888) (xy 1.620527 0.153888)) (layer F.SilkS) (width 0))
   )
 
   (gr_text "Test board\nfor wiringPi\nHaskell binding" (at 102.235 109.855 90) (layer F.SilkS)
