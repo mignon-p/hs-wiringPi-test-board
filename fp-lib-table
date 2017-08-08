@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name hs_wpi_test_board)(type KiCad)(uri ${KIPRJMOD}/hs_wpi_test_board.pretty)(options "")(descr ""))
+)
