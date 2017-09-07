@@ -27,6 +27,8 @@ numbers.
 This repository is licensed under the
 [Creative Commons Attribution-ShareAlike 4.0 International license][8].
 
+![photo of board](board.jpg)
+
 [1]: https://www.raspberrypi.org/
 [2]: https://hackage.haskell.org/package/wiringPi
 [3]: https://pinout.xyz/pinout/wiringpi
