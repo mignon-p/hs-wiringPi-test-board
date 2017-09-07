@@ -15,7 +15,8 @@
   (page USLetter)
   (title_block
     (title "Test board for wiringPi Haskell binding")
-    (date 2017-08-08)
+    (date 2017-09-07)
+    (rev 1.2)
     (company "Patrick Pelletier")
   )
 
