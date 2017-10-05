@@ -21,8 +21,14 @@ overloading the 3.3V supply.
 This circuit board was designed with [KiCad][5], and was designed to
 be fabricated with [OSH Park][6].
 
+* [View schematic](schematic.pdf)
+* [View PCB layout][9]
+* [Order PCB from Osh Park][10] ($27.40 for three copies of the board,
+  and free shipping)
+
 See `digi-key.csv` for Bill of Materials with [Digi-Key][7] part
-numbers.
+numbers.  With the 33 ohm resistors, the LEDs are really bright, so
+you might want to substitute 68 ohm resistors instead.
 
 This repository is licensed under the
 [Creative Commons Attribution-ShareAlike 4.0 International license][8].
@@ -37,3 +43,5 @@ This repository is licensed under the
 [6]: https://oshpark.com/
 [7]: https://www.digikey.com/
 [8]: https://creativecommons.org/licenses/by-sa/4.0/
+[9]: https://eyrie.io/board/922367d680304403abe881f246e2a430
+[10]: https://oshpark.com/shared_projects/bw71UDHZ
