@@ -39,7 +39,7 @@ This repository is licensed under the
 [2]: https://hackage.haskell.org/package/wiringPi
 [3]: https://pinout.xyz/pinout/wiringpi
 [4]: https://electronics.stackexchange.com/questions/60865/how-to-drive-a-20ma-led-from-a-4ma-max-gpio-pin#60868
-[5]: http://kicad-pcb.org/
+[5]: http://kicad.org/
 [6]: https://oshpark.com/
 [7]: https://www.digikey.com/
 [8]: https://creativecommons.org/licenses/by-sa/4.0/
